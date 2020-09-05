@@ -7,14 +7,13 @@ import {
   Spacer,
   View
 } from "nice-react-layout";
-import Navbar from './nav';
 
-class Header extends React.Component{
+class Footer extends React.Component{
   render(){
     return(
       <VerticalLayout mockup>
-        <Panel fixed fixedHeight={90}>
-          <Navbar />
+        <Panel fixed fixedHeight={50}>
+          < />
         </Panel>
       </VerticalLayout>
       )
@@ -22,4 +21,4 @@ class Header extends React.Component{
 }
 
 
-export default Header;
+export default Footer;

@@ -4,25 +4,38 @@
   margin: 0 0 3em 0;
   padding: 0;
   list-style: none;
-  position: relative;
-  top: -210px;
-
+  background: #fff;
+  border-bottom:1px solid #f1f1;
   }
 #nav li {
-  float: left; }
+  float: left;
+
+  }
 
 #nav li a {
     display: block;
-    padding: 8px 15px;
+    margin: 10px 10px;
+    padding: 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #069;
-    border-right: 1px solid #ccc; }
+    color: #000;
 
-#nav li a {
-    display: block;
-    padding: 8px 15px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #069;
-    border-right: 1px solid #ccc; }
+  }
+  .App-logo{
+    width:60px;
+    float: right;
+    padding: 10px;
+    margin: 10px 10px;
+  }
+  #setting-icon{
+    margin:15px;
+    padding:15px;
+  }
+  #textField{
+    width: 80%;
+    margin:14px 5px;
+    padding:10px;
+    border:none;
+    border-bottom: 1px solid #000;
+  }
+

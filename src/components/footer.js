@@ -1,4 +1,5 @@
 import React from "react";
+import './components.css';
 import {
   HorizontalLayout,
   VerticalLayout,
@@ -12,8 +13,8 @@ class Footer extends React.Component{
   render(){
     return(
       <VerticalLayout mockup>
-        <Panel fixed fixedHeight={50}>
-          < />
+        <Panel className='footer'>
+        <h6>This was developed & designed by:</h6>
         </Panel>
       </VerticalLayout>
       )

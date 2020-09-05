@@ -9,7 +9,7 @@ class Navbar extends React.Component{
   render(){
     return(
 
-      <div>
+      <div className='navbar-container'>
         <ul id="nav">
           <li><Logo /></li>
           <li><a href="#">TODAY</a></li>

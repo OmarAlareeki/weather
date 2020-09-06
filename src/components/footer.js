@@ -12,11 +12,9 @@ import {
 class Footer extends React.Component{
   render(){
     return(
-      <VerticalLayout mockup>
-        <Panel className='footer'>
-        <h6>This was developed & designed by:</h6>
-        </Panel>
-      </VerticalLayout>
+        <div className='footer'>
+        <p>Copy rights &#169; Omarproductions</p>
+        </div>
       )
   }
 }

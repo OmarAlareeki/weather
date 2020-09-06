@@ -12,7 +12,7 @@ import {
 class Footer extends React.Component{
   render(){
     return(
-      <VerticalLayout mockup>
+      <VerticalLayout>
         <Panel className='footer'>
         <h6>This was developed & designed by:</h6>
         </Panel>

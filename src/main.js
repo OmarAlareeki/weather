@@ -4,7 +4,7 @@ import Navbar from './components/nav';
 import Header from './components/header';
 import Body from './components/body';
 import Footer from './components/footer';
-import logo from './components/logo.png';
+import logo from './imgs/logo2.png';
 
 function App() {
   return (
